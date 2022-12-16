@@ -1,0 +1,113 @@
+/* TOTAL AND CHECKOUT */
+.subtotal {
+    float: right;
+    width: 100%;
+}
+
+.subtotal .totalRow {
+    padding: 0.5em;
+    text-align: right;
+}
+
+.subtotal .totalRow.final {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.subtotal .totalRow span {
+    display: inline-block;
+    padding: 0 0 0 1em;
+    text-align: right;
+}
+
+.subtotal .totalRow .label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.subtotal .totalRow .value {
+    letter-spacing: -0.025em;
+    width: 60%;
+}
+
+.subtotal .tax span {
+    text-decoration: line-through;
+}
+
+.cf ul {
+    list-style: none;
+}
+
+button.continue {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.015em;
+    font-size: 1em;
+    padding: 1em 3em;
+    color: #fff;
+    background: #36c068 !important;
+    font-weight: bold;
+    border-radius: 50px;
+    float: right;
+    text-align: right;
+    transition: all 0.25s linear;
+}
+
+@media only screen and (max-width: 39.375em) {
+    .wrap {
+        width: 98%;
+        padding: 2% 0;
+    }
+
+    .projTitle {
+        font-size: 1.5em;
+        padding: 10% 5%;
+    }
+
+    .heading {
+        padding: 1em;
+        font-size: 90%;
+    }
+
+    .cart .items .cartSection {
+        width: 90%;
+        display: block;
+        float: left;
+    }
+
+    .cart .items .cartSection.qtyWrap {
+        width: 10%;
+        text-align: center;
+        padding: 0.5em 0;
+        float: right;
+    }
+
+    .cart .items .cartSection.qtyWrap:before {
+        content: "QTY";
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0.25em;
+        font-size: 0.75em;
+    }
+
+    .cart .items .cartSection.prodTotal,
+    .cart .items .cartSection.removeWrap {
+        display: none;
+    }
+
+    .cart .items .cartSection .itemImg {
+        width: 25%;
+    }
+
+    .promoCode,
+    .subtotal {
+        width: 100%;
+    }
+
+    a.btn.continue {
+        width: 100%;
+        text-align: center;
+    }
+}

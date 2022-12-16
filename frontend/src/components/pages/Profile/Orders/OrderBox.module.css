@@ -1,0 +1,50 @@
+.outterBox {
+    box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 15%);
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.innerBox {
+    padding: 20px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    padding: 0 0 8px 16px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
+    border-radius: 10%;
+}
+
+.descriptions {
+    display: inline-flex;
+}
+
+.foodDesBox {
+    padding: 2px;
+}
+
+.foodItem {
+    border: 1px solid  rgb(235, 198, 198);
+    padding: 5px;
+    font-size: 13px;
+}
+
+.getTotal {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    text-align: right;
+}
+
+.orderStatus {
+    text-align: right;
+    padding: 10px;
+}
+

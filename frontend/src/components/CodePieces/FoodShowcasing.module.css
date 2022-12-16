@@ -1,0 +1,23 @@
+.foodName {
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.footerParagraph {
+    margin: 0 0 0 -50px !important;
+    bottom: 0;
+}
+
+.footerParagraph button {
+    float: right;
+}
+
+.price {
+    padding: 5px 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #008000;
+    color: #fff;
+}

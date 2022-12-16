@@ -1,0 +1,15 @@
+-----Restaurant-----
+1. Restaurant Registration (After signup, if your group is restaurant then goto restaurant details page.)
+2. Restaurant Menu add
+3. Special Menu Add (x)
+4. Restaurant Profile Model
+5. Food Request Showcase and Change order status
+
+-----Delivery Man-----
+1. Registration
+2. Get Request delivery request (zone)
+3. Change order status
+
+----- Customer -----
+1. Order Status Change to completed
+2. Order Review

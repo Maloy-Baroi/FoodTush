@@ -1,0 +1,17 @@
+.logo {
+    color: #ffffff;
+    font-size: 34px !important;
+    font-weight: bolder;
+}
+
+.logo:hover {
+    color: #27ae60
+}
+
+.logo:hover .logo_icon {
+    color: #ffffff;
+}
+
+.logo_icon{
+    color: #27ae60;
+}

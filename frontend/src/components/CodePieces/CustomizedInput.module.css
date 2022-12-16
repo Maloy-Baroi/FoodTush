@@ -1,0 +1,15 @@
+.label {
+    font-size: 24px;
+    color: #000;
+}
+
+.input {
+    background-color: #eee !important;
+    padding: 10px 0 10px 12px !important;
+    height: 48px !important;
+    border: none;
+}
+
+.small {
+    font-size: 11px !important;
+}

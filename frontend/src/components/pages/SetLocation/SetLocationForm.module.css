@@ -1,0 +1,26 @@
+.fullBox {
+    background-color: #eee;
+}
+
+.label {
+    font-size: 48px;
+    margin: 0 0 18px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+}
+
+.input {
+    border: 0;
+    background: transparent;
+    border-bottom: 1px dotted #DDD;
+    font-size: 16px;
+    padding: 10px;
+    height: 3rem;
+    margin: 20px auto;
+}
+
+.input:focus {
+    border: 0;
+    border-bottom: 1px solid rgb(134, 134, 134);
+    box-shadow: none;
+}

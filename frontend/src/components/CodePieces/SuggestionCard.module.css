@@ -1,0 +1,18 @@
+.header_text {
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.anchor_text {
+    color: #000;
+    margin: 8px 0 0;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: 0.3s;
+}
+
+.anchor_text:hover {
+    color: rgb(6, 85, 85);
+    font-weight: 600;
+}

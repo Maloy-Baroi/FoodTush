@@ -1,0 +1,14 @@
+.bg_img {
+    /* The image used */
+    background-image: url('/public/static/image/hero.jpg');
+  
+    min-height: 650px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }

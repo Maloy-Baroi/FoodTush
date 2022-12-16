@@ -1,0 +1,34 @@
+.headerImage {
+    width: 50%;
+    height: 250px;
+}
+
+.headerText {
+    padding-top: 24px;
+}
+
+.headerName {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.veg_nonVeg {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.starParent {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.star {
+    color: goldenrod;
+    font-size: 13px !important;
+}
+
+.veg_ornot_img {
+    width: 20px;
+    height: 24px;
+}

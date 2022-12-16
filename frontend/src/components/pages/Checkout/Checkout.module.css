@@ -1,0 +1,25 @@
+.main_checkout {
+  background-color: #fff5f5 !important;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.main_checkout h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.main_checkout label {
+  font-weight: 700;
+}
+
+.main_checkout textarea {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(212, 85, 85);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
